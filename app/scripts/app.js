@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/touch', {
+        templateUrl: 'views/touch/index.html',
+        controller: 'TouchCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
